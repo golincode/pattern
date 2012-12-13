@@ -230,6 +230,27 @@
             <aside class="quote">
                 <p><span class="copy">“If you’re good at something, never do it for free.”</span><br />– The Joker</p>
             </aside>
+            <section id="chapter-2" class="chapter">
+                <h1>Chapter II<br />UX &amp; Design</h1>
+                <section id="chapter-2-user-experience">
+                    <h1>User Experience</h1>
+                </section>
+                <section id="chapter-2-creative-brief">
+                    <h1>Creative Brief</h1>
+                </section>
+                <section id="chapter-2-design-process">
+                    <h1>Design Process</h1>
+                </section>
+                <section id="chapter-2-typeface">
+                    <h1>Typeface</h1>
+                </section>
+                <section id="chapter-2-provided-assets">
+                    <h1>Provided Assets</h1>
+                </section>
+                <section id="chapter-2-copy-style">
+                    <h1>Brand Guidelines and Copy Style</h1>
+                </section>
+            </section>
             <aside class="quote">
                 <p><span class="copy">“Creativity takes courage.”</span><br />– Henri Matisse</p>
             </aside>

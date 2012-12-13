@@ -156,7 +156,9 @@ body {
     text-align: center;
     font-size: 1.4em;
     width: 90%;
-    margin: 0 auto;
+    margin: 80px auto 0 auto;
+    border-top: #EFEFEF solid 1px;
+    border-bottom: #EFEFEF solid 1px;
 }
     .quote .copy {
         font-style: italic;
