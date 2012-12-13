@@ -119,8 +119,12 @@
             <section id="preface" class="chapter">
                 <h1>How to use this document</h1>
                 <p>Through the document examples are given, which’ll look similar to this:</p>
-                <blockquote class="example-copy">
+                <blockquote class="example example-sample">
                     <p>The Hub makes it easier for market managers to use the correct assets in campaigns.</p>
+                </blockquote>
+                <p>There is also copy that is safe to use in any document you present to clients, which is indicated by the green stripe:</p>
+                <blockquote class="example example-copy">
+                    <p>Architect digital design and build agency, London &amp; San Francisco.</p>
                 </blockquote>
             </section>
             <section id="creating-documents" class="chapter">
@@ -160,24 +164,24 @@
                 <section id="chapter-1-purpose">
                     <h1>1. Purpose</h1>
                     <p id="chapter-1-purpose-1"><a href="#chapter-1-purpose-1" class="marker">1.1.1</a>Describe as simply as possibly the purpose of this project.</p>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <p>The Hub makes it easier for market managers to use the correct assets in campaigns.</p>
                     </blockquote>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <p>The iPod allows people to listen to music from their computers on the go.</p>
                     </blockquote>
                 </section>
                 <section id="chapter-1-objectives">
                     <h1>2. Objectives</h1>
                     <p id="chapter-1-objectives-1"><a href="#chapter-1-objectives-1" class="marker">1.2.1</a>Outline the objectives as individual points. For simple projects there is likely only to be a few points. Do not offer any conclusions or solutions at this point, merely outline what we’re trying to achieve.</p>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <ul>
                             <li>Users should add products to a basket.</li>
                             <li>Users should then checkout the contents of their basket.</li>
                             <li><em>etc</em></li>
                         </ul>
                     </blockquote>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <ul>
                             <li>Allow users to transfer songs from their computer to the iPod.</li>
                             <li>Allow users to find songs on the iPod using different categories.</li>
@@ -188,7 +192,7 @@
                 <section id="chapter-1-supplied">
                     <h1>3. Supplied</h1>
                     <p id="chapter-1-supplied-1"><a href="#chapter-1-supplied-1" class="marker">1.3.1</a>It is likely that copy, assets or other content is provided by the client. List what you’re expecting the client to provide.</p>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <ul>
                             <li>Photography of staff and shop provided in JPG format with a minimum resolution of 4 megapixels.</li>
                             <li>Copy for all content pages.</li>
@@ -199,17 +203,17 @@
                 <section id="chapter-1-deliverables">
                     <h1>4. Deliverables</h1>
                     <p id="chapter-1-deliverables-1"><a href="#chapter-1-deliverables-1" class="marker">1.4.1</a>Normally suspiciously easy this one, what are we going to provide?</p>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <p>A web application deployed to a web server.</p>
                     </blockquote>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <p>A web page suitable for a Facebook Page tab deployed to a web server.</p>
                     </blockquote>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <p>An iOS application for iPhone and iPod touch distributed to the iOS App Store.</p>
                     </blockquote>
                     <p id="chapter-1-deliverables-2"><a href="#chapter-1-deliverables-2" class="marker">1.4.2</a>However, sometimes it can be more complicated.</p>
-                    <blockquote class="example-copy">
+                    <blockquote class="example example-sample">
                         <p>A concept video with voice over demonstrating the features of the web application, training manuals for staff to use and a web application deployed to a web server.</p>
                     </blockquote>
                 </section>
@@ -254,6 +258,155 @@
             <aside class="quote">
                 <p><span class="copy">“Creativity takes courage.”</span><br />– Henri Matisse</p>
             </aside>
+            <section id="chapter-4" class="chapter">
+                <h1>Chapter IV<br />Technical Specification</h1>
+                <p>You will need to consult with the Lead Developer for most of these decisions. If a section does not apply, do not skip it out, list it and explain why it does not apply.</p>
+                <section id="chapter-4-server">
+                    <h1>Server</h1>
+                    <h2 id="chapter-1-server-2">Architect Trusted Shared Hosting</h2>
+                    <p><a href="#chapter-1-server-2" class="marker">4.1.2</a>This is our new primary method of hosting. It gives us flexibility and control over the server, but still ensures it’s affordable for all customers.</p>
+                    <p>Here’s what you can use to sell it:</p>
+                    <blockquote class="example example-copy">
+                        <p>Architect Trusted Shared Hosting gives all the benefits of Cloud Hosting, ensuring stability and scalability, but with the affordability of shared hosting. However unlike other shared hosting solutions, we only let code on the servers that we’ve written or vetted. We don’t let third parties access the server and we keep a close eye on availability. Also unlike most other shared hosting, ours includes backups.</p>
+                    </blockquote>
+                    <h3>Prices</h3>
+                    <p>Instead of the traditional packages based on space and bandwidth, we charge for amount of resource and power.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>RAM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>128MB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section id="chapter-4-client-browser">
+                    <h1>Client Browser</h1>
+                    <p>List the browsers that the site is going to be designed for.</p>
+                    <blockquote class="example example-copy">
+                        <p>Note that some modern features will only work on modern browsers. We’ll let you know which features won’t work across all browsers and what we’re going to do as an alternative.</p>
+                    </blockquote>
+                    <p>Here’s a standard set of browsers we can test for. We recommend you only mention the ones we’ve marked a tick against, but the others are available if the client specifically requests them.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Browser</th>
+                                <th>Operating System</th>
+                                <th>Recommended</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Internet Explorer 6</td>
+                                <td>Windows XP</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Internet Explorer 7</td>
+                                <td>Windows XP</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Internet Explorer 8</td>
+                                <td>Windows XP</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Internet Explorer 9</td>
+                                <td>Windows 7</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Internet Explorer 10</td>
+                                <td>Windows 8</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Safari 5</td>
+                                <td>OS X Snow Leopard</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Safari 6</td>
+                                <td>OS X Mountain Lion</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox (latest)</td>
+                                <td>Windows XP</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Chrome (latest)</td>
+                                <td>Windows XP</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Chrome (latest)</td>
+                                <td>OS X Mountain Lion</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Chrome (latest)</td>
+                                <td>Android 4</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Browser</td>
+                                <td>Android 4</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Safari</td>
+                                <td>iOS 6 (iPad)</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Safari</td>
+                                <td>iOS 6 (iPhone/iPod touch)</td>
+                                <td>&#10003;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section id="chapter-4-application">
+                    <h1>Application</h1>
+                </section>
+                <section id="chapter-4-third-party">
+                    <h1>Third Party Services</h1>
+                </section>
+                <section id="chapter-4-domains-dns">
+                    <h1>Domains &amp; DNS</h1>
+                </section>
+                <section id="chapter-4-accessibility">
+                    <h1>Accessibility</h1>
+                </section>
+                <section id="chapter-4-backups">
+                    <h1>Backups</h1>
+                </section>
+                <section id="chapter-4-analytics">
+                    <h1>Analytics</h1>
+                </section>
+                <section id="chapter-4-suppliers">
+                    <h1>Recommended Suppliers</h1>
+                </section>
+                <section id="chapter-4-code-repo">
+                    <h1>Code Repository</h1>
+                </section>
+                <section id="chapter-4-bug-reporting">
+                    <h1>Bug Reporting</h1>
+                </section>
+                <section id="chapter-4-version-control">
+                    <h1>Version Control</h1>
+                </section>
+                <section id="chapter-4-environments">
+                    <h1>Environments</h1>
+                </section>
+            </section>
             <aside class="quote">
                 <p><span class="copy">“Stay hungry, stay foolish.”</span><br />– Steve Jobs</p>
             </aside>

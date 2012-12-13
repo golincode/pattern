@@ -143,12 +143,17 @@ body {
         margin: 0 0 10px 10px;
     }
 
-    .example-copy {
-        border-left: #0080FF solid 5px;
+    .example {
         background-color: #EFEFEF;
         padding: 10px;
     }
-        .example-copy p, .example-copy ul {
+    .example-sample {
+        border-left: #0080FF solid 5px;
+    }
+    .example-copy {
+        border-left: #408000 solid 5px;
+    }
+        .example p, .example ul {
             margin: 0;
         }
 
