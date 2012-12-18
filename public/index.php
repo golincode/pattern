@@ -21,7 +21,10 @@
             <h1>Table of Contents</h1>
             <ul>
                 <li>
-                    <a href="#preface">How to use this document</a>
+                    <a href="#what">What is Pattern?</a>
+                </li>
+                <li>
+                    <a href="#preface">How to use Pattern</a>
                 </li>
                 <li>
                     <a href="#creating-documents">Creating Documents</a>
@@ -119,8 +122,12 @@
             </ul>
         </nav>
         <article id="document" class="document">
+            <section id="what" class="chapter">
+                <h1>What is Pattern?</h1>
+                <p>Pattern is a guide to Architect’s ways of working and best practice.</p>
+            </section>
             <section id="preface" class="chapter">
-                <h1>How to use this document</h1>
+                <h1>How to use Pattern</h1>
                 <p>Through the document examples are given, which’ll look similar to this:</p>
                 <blockquote class="example example-sample">
                     <p>The Hub makes it easier for market managers to use the correct assets in campaigns.</p>
