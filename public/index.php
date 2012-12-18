@@ -27,6 +27,9 @@
                     <a href="#creating-documents">Creating Documents</a>
                 </li>
                 <li>
+                    <a href="#project-process">Project Process</a>
+                </li>
+                <li>
                     <a href="#chapter-1">Chapter I – Objectives &amp; Scope</a>
                     <ul>
                         <li><a href="#chapter-1-purpose">1. Purpose</a></li>
@@ -157,6 +160,21 @@
                     <li>Objectives &amp; Scope 1.2.1.pdf</li>
                 </ul>
                 <p>If you still prefer to see the date in the filename, please put this after the version number.</p>
+            </section>
+            <section id="project-process" class="chapter">
+                <h1>Project Process</h1>
+                <ol>
+                    <li>Pitch</li>
+                    <li>Scoping</li>
+                    <li>Research</li>
+                    <li>Sign off</li>
+                    <li>Design</li>
+                    <li>Build &amp; develop</li>
+                    <li>Test</li>
+                    <li>Go Live</li>
+                    <li>Evaluate</li>
+                    <li>Maintain</li>
+                </ol>
             </section>
             <section id="chapter-1" class="chapter">
                 <h1>Chapter I<br />Objectives &amp; Scope</h1>
