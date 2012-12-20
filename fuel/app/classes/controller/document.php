@@ -67,6 +67,10 @@ class Controller_Document extends Controller_Template
 			'quote'		=> 'Stay hungry, stay foolish.',
 			'author'	=> 'Steve Jobs',
 		),
+		array(
+			'quote'		=> 'Insanity is doing the same thing over and over again and expecting different results.',
+			'author'	=> 'Albert Einstein',
+		),
 	);
 
 	private static $ips = array(
