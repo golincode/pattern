@@ -16,5 +16,5 @@
  */
 
 return array(
-	'locale'             => 0
+	'locale'             => 'en_GB.UTF-8'
 );
