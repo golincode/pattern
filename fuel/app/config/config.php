@@ -16,5 +16,5 @@
  */
 
 return array(
-	'locale'             => 'en_GB'
+	'locale'             => 'en'
 );
