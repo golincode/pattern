@@ -69,11 +69,16 @@ class Controller_Document extends Controller_Template
 		),
 	);
 
+	private static $ips = array(
+		'199.4.27.122', // London
+		'199.4.18.2', // San Francisco
+	);
+
 	public function before()
 	{
 		parent::before();
 
-		if (Input::ip() !== '199.4.27.122' && Fuel::$env === Fuel::PRODUCTION)
+		if ( ! in_array(Input::ip(), self::$ips) && Fuel::$env === Fuel::PRODUCTION)
 		{
 			throw new HttpNotFoundException;
 		}
