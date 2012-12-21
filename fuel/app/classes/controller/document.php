@@ -52,6 +52,16 @@ class Controller_Document extends Controller_Template
 				),
 			),
 		),
+		'technical-specification' => array(
+			'title'		=> 'Chapter IV – Technical Specification',
+			'body'		=> 'technical-specification',
+			'sections'	=> array(
+				'server' => array(
+					'title'		=> 'Server',
+					'body'		=> 'server',
+				),
+			),
+		),
 	);
 
 	public static $quotes = array(
