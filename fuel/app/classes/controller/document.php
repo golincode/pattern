@@ -38,6 +38,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Objectives',
 					'body'		=> 'objectives',
 				),
+				'life-cycle' => array(
+					'title'		=> 'Life Cycle',
+					'body'		=> 'life-cycle',
+				),
 				'supplied' => array(
 					'title'		=> 'Supplied',
 					'body'		=> 'supplied',
@@ -60,6 +64,10 @@ class Controller_Document extends Controller_Template
 			'title'		=> 'Chapter II – UX &amp; Design',
 			'body'		=> 'ux-design',
 			'sections'	=> array(
+				'use-cases-stories' => array(
+					'title'		=> 'Use Cases &amp; User Stories',
+					'body'		=> 'use-cases-stories',
+				),
 				'user-experience' => array(
 					'title'		=> 'User Experience',
 					'body'		=> 'user-experience',
