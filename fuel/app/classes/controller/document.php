@@ -50,6 +50,58 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'People',
 					'body'		=> 'people',
 				),
+				'responsibilities' => array(
+					'title'		=> 'Responsibilities',
+					'body'		=> 'responsibilities',
+				),
+			),
+		),
+		'ux-design' => array(
+			'title'		=> 'Chapter II – UX &amp; Design',
+			'body'		=> 'ux-design',
+			'sections'	=> array(
+				'user-experience' => array(
+					'title'		=> 'User Experience',
+					'body'		=> 'user-experience',
+				),
+				'creative-brief' => array(
+					'title'		=> 'Creative Brief',
+					'body'		=> 'creative-brief',
+				),
+				'design-process' => array(
+					'title'		=> 'Design Process',
+					'body'		=> 'design-process',
+				),
+				'typefaces' => array(
+					'title'		=> 'Typefaces',
+					'body'		=> 'typefaces',
+				),
+				'provided-assets' => array(
+					'title'		=> 'Provided Assets',
+					'body'		=> 'provided-assets',
+				),
+				'brand-guidelines-copy-style' => array(
+					'title'		=> 'Brand Guidelines and Copy Style',
+					'body'		=> 'brand-guidelines-copy-style',
+				),
+			),
+		),
+		'functional-specification' => array(
+			'title'		=> 'Chapter III – Functional Specification',
+			'body'		=> 'functional-specification',
+			'sections'	=> array(
+				'navigation' => array(
+					'title'		=> 'Navigation',
+					'body'		=> 'navigation',
+				),
+				'pages' => array(
+					'title'		=> 'Pages',
+					'body'		=> 'pages',
+				),
+				'distribution' => array(
+					'title'		=> 'Distribution',
+					'body'		=> 'distribution',
+				),
 			),
 		),
 		'technical-specification' => array(
@@ -59,6 +111,180 @@ class Controller_Document extends Controller_Template
 				'server' => array(
 					'title'		=> 'Server',
 					'body'		=> 'server',
+				),
+				'client-browser-devices' => array(
+					'title'		=> 'Client Browser &amp; Devices',
+					'body'		=> 'client-browser-devices',
+				),
+				'application' => array(
+					'title'		=> 'Application',
+					'body'		=> 'application',
+				),
+				'third-party' => array(
+					'title'		=> 'Third Party Services',
+					'body'		=> 'third-party',
+				),
+				'domains-dns' => array(
+					'title'		=> 'Domains &amp; DNS',
+					'body'		=> 'domains-dns',
+				),
+				'accessibility' => array(
+					'title'		=> 'Accessibility',
+					'body'		=> 'accessibility',
+				),
+				'backups' => array(
+					'title'		=> 'Backups',
+					'body'		=> 'backups',
+				),
+				'analytics' => array(
+					'title'		=> 'Analytics',
+					'body'		=> 'analytics',
+				),
+				'suppliers' => array(
+					'title'		=> 'Recommended Suppliers',
+					'body'		=> 'suppliers',
+				),
+				'code-repo' => array(
+					'title'		=> 'Code Repository',
+					'body'		=> 'code-repo',
+				),
+				'bug-reporting' => array(
+					'title'		=> 'Bug Reporting',
+					'body'		=> 'bug-reporting',
+				),
+				'version-control' => array(
+					'title'		=> 'Version Control',
+					'body'		=> 'version-control',
+				),
+				'environments' => array(
+					'title'		=> 'Environments',
+					'body'		=> 'environments',
+				),
+				'logs' => array(
+					'title'		=> 'Logs',
+					'body'		=> 'logs',
+				),
+				'software' => array(
+					'title'		=> 'Software &amp; Versions',
+					'body'		=> 'software',
+				),
+				'frameworks' => array(
+					'title'		=> 'Frameworks &amp; Libraries',
+					'body'		=> 'frameworks',
+				),
+				'standards' => array(
+					'title'		=> 'Coding Standards',
+					'body'		=> 'standards',
+				),
+			),
+		),
+		'quality-assurance' => array(
+			'title'		=> 'Chapter V – Quality Assurance',
+			'body'		=> 'quality-assurance',
+			'sections'	=> array(
+				'user-acceptance-testing' => array(
+					'title'		=> 'User Acceptance Testing',
+					'body'		=> 'user-acceptance-testing',
+				),
+				'unit-testing' => array(
+					'title'		=> 'Unit Testing',
+					'body'		=> 'unit-testing',
+				),
+				'security-testing' => array(
+					'title'		=> 'Security Testing',
+					'body'		=> 'security-testing',
+				),
+				'change-control' => array(
+					'title'		=> 'Change Control',
+					'body'		=> 'change-control',
+				),
+			),
+		),
+		'go-live' => array(
+			'title'		=> 'Chapter VI – Go Live',
+			'body'		=> 'go-live',
+			'sections'	=> array(
+				'analytics' => array(
+					'title'		=> 'Analytics',
+					'body'		=> 'analytics',
+				),
+				'server' => array(
+					'title'		=> 'Server',
+					'body'		=> 'server',
+				),
+				'ssl-certificates' => array(
+					'title'		=> 'SSL Certificates',
+					'body'		=> 'ssl-certificates',
+				),
+				'dns' => array(
+					'title'		=> 'DNS',
+					'body'		=> 'dns',
+				),
+				'sprint' => array(
+					'title'		=> 'Sprint',
+					'body'		=> 'sprint',
+				),
+				'review' => array(
+					'title'		=> 'Review',
+					'body'		=> 'review',
+				),
+			),
+		),
+		'maintenance' => array(
+			'title'		=> 'Chapter VII – Maintenance',
+			'body'		=> 'maintenance',
+			'sections'	=> array(
+				'server' => array(
+					'title'		=> 'Server',
+					'body'		=> 'server',
+				),
+				'backups' => array(
+					'title'		=> 'Backups',
+					'body'		=> 'backups',
+				),
+				'log-checking' => array(
+					'title'		=> 'Log Checking',
+					'body'		=> 'log-checking',
+				),
+				'version-checking' => array(
+					'title'		=> 'Software Version Checking',
+					'body'		=> 'version-checking',
+				),
+				'application' => array(
+					'title'		=> 'Application',
+					'body'		=> 'application',
+				),
+				'third-party-services' => array(
+					'title'		=> 'Third Party Services',
+					'body'		=> 'third-party-services',
+				),
+			),
+		),
+		'legal' => array(
+			'title'		=> 'Chapter VIII – Legal',
+			'body'		=> 'legal',
+			'sections'	=> array(
+				'statement-of-work' => array(
+					'title'		=> 'Statement of Work',
+					'body'		=> 'statement-of-work',
+				),
+				'contract-for-services' => array(
+					'title'		=> 'Contract for Services',
+					'body'		=> 'contract-for-services',
+				),
+			),
+		),
+		'analysis' => array(
+			'title'		=> 'Chapter IX – Analysis',
+			'body'		=> 'legal',
+			'sections'	=> array(
+				'evaluation' => array(
+					'title'		=> 'Internal Evaluation',
+					'body'		=> 'evaluation',
+				),
+				'client-feedback' => array(
+					'title'		=> 'Client Feedback',
+					'body'		=> 'client-feedback',
 				),
 			),
 		),
