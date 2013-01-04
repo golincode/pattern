@@ -187,7 +187,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'quality-assurance' => array(
-			'title'		=> 'Chapter V – Quality Assurance',
+			'title'		=> 'Chapter V – Software Quality Assurance',
 			'body'		=> 'quality-assurance',
 			'sections'	=> array(
 				'user-acceptance-testing' => array(
