@@ -60,17 +60,13 @@ class Controller_Document extends Controller_Template
 			'title'		=> 'Chapter II – Functional Specification',
 			'body'		=> 'functional-specification',
 			'sections'	=> array(
-				'navigation' => array(
-					'title'		=> 'Navigation',
-					'body'		=> 'navigation',
+				'web' => array(
+					'title'		=> 'Web development',
+					'body'		=> 'web',
 				),
-				'pages' => array(
-					'title'		=> 'Pages',
-					'body'		=> 'pages',
-				),
-				'distribution' => array(
-					'title'		=> 'Distribution',
-					'body'		=> 'distribution',
+				'apps' => array(
+					'title'		=> 'App development',
+					'body'		=> 'apps',
 				),
 			),
 		),
