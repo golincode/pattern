@@ -1,0 +1,1 @@
+                    <p>provided-assets</p>

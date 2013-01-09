@@ -1,0 +1,1 @@
+                    <p>Get an idea from the client of the design for the project. Brand guidelines should dictate much of the standards, and the design should answer the functional specification (for example, if the requirement is to build a mobile application, the appropriate considerations will be taken into).</p>

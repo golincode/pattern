@@ -54,23 +54,33 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'People',
 					'body'		=> 'people',
 				),
-				'responsibilities' => array(
-					'title'		=> 'Responsibilities',
-					'body'		=> 'responsibilities',
+			),
+		),
+		'functional-specification' => array(
+			'title'		=> 'Chapter II – Functional Specification',
+			'body'		=> 'functional-specification',
+			'sections'	=> array(
+				'navigation' => array(
+					'title'		=> 'Navigation',
+					'body'		=> 'navigation',
+				),
+				'pages' => array(
+					'title'		=> 'Pages',
+					'body'		=> 'pages',
+				),
+				'distribution' => array(
+					'title'		=> 'Distribution',
+					'body'		=> 'distribution',
 				),
 			),
 		),
 		'ux-design' => array(
-			'title'		=> 'Chapter II – UX &amp; Design',
+			'title'		=> 'Chapter III – UX &amp; Design',
 			'body'		=> 'ux-design',
 			'sections'	=> array(
 				'use-cases-stories' => array(
 					'title'		=> 'Use Cases &amp; User Stories',
 					'body'		=> 'use-cases-stories',
-				),
-				'user-experience' => array(
-					'title'		=> 'User Experience',
-					'body'		=> 'user-experience',
 				),
 				'creative-brief' => array(
 					'title'		=> 'Creative Brief',
@@ -91,24 +101,6 @@ class Controller_Document extends Controller_Template
 				'brand-guidelines-copy-style' => array(
 					'title'		=> 'Brand Guidelines and Copy Style',
 					'body'		=> 'brand-guidelines-copy-style',
-				),
-			),
-		),
-		'functional-specification' => array(
-			'title'		=> 'Chapter III – Functional Specification',
-			'body'		=> 'functional-specification',
-			'sections'	=> array(
-				'navigation' => array(
-					'title'		=> 'Navigation',
-					'body'		=> 'navigation',
-				),
-				'pages' => array(
-					'title'		=> 'Pages',
-					'body'		=> 'pages',
-				),
-				'distribution' => array(
-					'title'		=> 'Distribution',
-					'body'		=> 'distribution',
 				),
 			),
 		),
