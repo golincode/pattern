@@ -272,7 +272,7 @@ class Controller_Document extends Controller_Template
 		),
 		'analysis' => array(
 			'title'		=> 'Chapter IX – Analysis',
-			'body'		=> 'legal',
+			'body'		=> 'analysis',
 			'sections'	=> array(
 				'evaluation' => array(
 					'title'		=> 'Internal Evaluation',
