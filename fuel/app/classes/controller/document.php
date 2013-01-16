@@ -362,5 +362,7 @@ class Controller_Document extends Controller_Template
 		$error = View::forge('404');
 
 		$this->template->body = $error;
+
+		return $this->template;
 	}
 }
