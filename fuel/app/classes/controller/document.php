@@ -303,6 +303,10 @@ class Controller_Document extends Controller_Template
 			'quote'		=> 'Insanity is doing the same thing over and over again and expecting different results.',
 			'author'	=> 'Albert Einstein',
 		),
+		array(
+			'quote'		=> 'Design is a process, not a product.',
+			'author'	=> 'Christoper Simmons',
+		),
 	);
 
 	private static $ips = array(
