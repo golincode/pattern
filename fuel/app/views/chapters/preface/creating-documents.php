@@ -25,4 +25,4 @@
                     <li>Objectives &amp; Scope 1.1.1.pdf</li>
                     <li>Objectives &amp; Scope 1.2.1.pdf</li>
                 </ul>
-                <p>If you still prefer to see the date in the filename, please put this after the version number.</p>
+                <p>For more information on versioning, see <a href="http://semver.org">Semantic Versioning</a>.</p>
