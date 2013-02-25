@@ -284,6 +284,36 @@ class Controller_Document extends Controller_Template
 				),
 			),
 		),
+		'authorised-systems' => array(
+			'title'		=> 'Chapter X – Authorised Web Systems',
+			'body'		=> 'authorised-systems',
+			'sections'	=> array(
+				'apis' => array(
+					'title'		=> 'APIs',
+					'body'		=> 'apis',
+				),
+				'libraries' => array(
+					'title'		=> 'Libraries',
+					'body'		=> 'libraries',
+				),
+				'frameworks' => array(
+					'title'		=> 'Frameworks',
+					'body'		=> 'frameworks',
+				),
+				'cms' => array(
+					'title'		=> 'CMS',
+					'body'		=> 'cms',
+				),
+				'platforms' => array(
+					'title'		=> 'Platforms &amp; Applications',
+					'body'		=> 'platforms',
+				),
+				'registration' => array(
+					'title'		=> 'Registering a system',
+					'body'		=> 'registration',
+				),
+			),
+		),
 	);
 
 	public static $quotes = array(

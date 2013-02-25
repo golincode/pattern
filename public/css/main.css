@@ -169,7 +169,12 @@ body {
         font-style: italic;
     }
 
-
+.note {
+    border-top: #EFEFEF solid 1px;
+    font-size: .9em;
+    color: #999;
+    margin-bottom: 40px;
+}
 
 
 
