@@ -70,3 +70,4 @@
 						</tr>
 					</tbody>
 				</table>
+				<p>Also see <a href="<?=Uri::create('chapter/authorised-systems')?>">Authorised Web Systems</a> for application and library suppliers.</p>
