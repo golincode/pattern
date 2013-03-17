@@ -152,6 +152,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Version Control',
 					'body'		=> 'version-control',
 				),
+				'branches' => array(
+					'title'		=> 'Branches',
+					'body'		=> 'branches',
+				),
 				'environments' => array(
 					'title'		=> 'Environments',
 					'body'		=> 'environments',
