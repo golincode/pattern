@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Architect Pattern</title>
+        <title>Architect Pattern<?=(isset($title)) ? ' – '.$title : false?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="<?php echo Uri::create('css/normalize.css'); ?>">

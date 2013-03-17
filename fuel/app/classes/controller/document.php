@@ -384,6 +384,8 @@ class Controller_Document extends Controller_Template
 
 		$chapter->quote = self::$quotes[array_rand(self::$quotes)];
 
+		$this->template->title = $chapter->title;
+
 		$this->template->body = $chapter;
 	}
 
