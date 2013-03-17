@@ -352,10 +352,11 @@ class Controller_Document extends Controller_Template
 	{
 		parent::before();
 
-		if ( ! in_array(Input::ip(), self::$ips) && Fuel::$env === Fuel::PRODUCTION)
-		{
-			throw new HttpNotFoundException;
-		}
+		// Hide from non-Architect offices
+		// if ( ! in_array(Input::ip(), self::$ips) && Fuel::$env === Fuel::PRODUCTION)
+		// {
+		// 	throw new HttpNotFoundException;
+		// }
 	}
 
 	public function action_toc()
