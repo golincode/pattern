@@ -1,1 +1,1 @@
-				<p>...</p>
+				<p>List a contact on the client’s end and one at Architect who are responsible for any changes made. Often this will be the project manager. This ensures that two different people aren’t making different changes to the application.</p>
