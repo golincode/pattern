@@ -18,3 +18,4 @@
                     <blockquote class="example example-sample">
                     	<p>As a new visitor, I want to be sign up to create a wish list.</p>
                     </blockquote>
+                    <p>User Stories are very useful for development and testing, and are useful for the client to imagine the user journey. They don’t have to be totally comprehensive of the entire site, just the main purposes.</p>

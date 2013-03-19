@@ -176,7 +176,15 @@ body {
     margin-bottom: 40px;
 }
 
-
+.datatable {
+    width: 100%;
+}
+    .datatable-blocks td, .datatable-blocks th {
+        padding: 10px 0;
+    }
+    .datatable-blocks tbody tr {
+        border-top: #EFEFEF solid 1px;
+    }
 
 
 

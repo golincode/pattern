@@ -152,6 +152,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Version Control',
 					'body'		=> 'version-control',
 				),
+				'branches' => array(
+					'title'		=> 'Branches',
+					'body'		=> 'branches',
+				),
 				'environments' => array(
 					'title'		=> 'Environments',
 					'body'		=> 'environments',
@@ -348,10 +352,11 @@ class Controller_Document extends Controller_Template
 	{
 		parent::before();
 
-		if ( ! in_array(Input::ip(), self::$ips) && Fuel::$env === Fuel::PRODUCTION)
-		{
-			throw new HttpNotFoundException;
-		}
+		// Hide from non-Architect offices
+		// if ( ! in_array(Input::ip(), self::$ips) && Fuel::$env === Fuel::PRODUCTION)
+		// {
+		// 	throw new HttpNotFoundException;
+		// }
 	}
 
 	public function action_toc()
@@ -383,6 +388,8 @@ class Controller_Document extends Controller_Template
 		}
 
 		$chapter->quote = self::$quotes[array_rand(self::$quotes)];
+
+		$this->template->title = $chapter->title;
 
 		$this->template->body = $chapter;
 	}
