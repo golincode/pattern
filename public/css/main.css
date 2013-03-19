@@ -115,6 +115,14 @@ body {
         margin: 5px 0 10px 0;
     }
 
+.footer {
+    text-align: center;
+}
+    .footer p {
+        font-size: .8em;
+        color: #999;
+    }
+
 .toc {
     width: 90%;
     max-width: 480px;

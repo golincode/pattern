@@ -18,6 +18,9 @@
             <p>‘Spoken words fly away, written words stay’</p> -->
         </header>
 <?php echo $body; ?>
+        <footer class="footer">
+            <p>&copy; 2012 – <?=date('Y')?> Golin/Harris International Limited trading as Architect</p>
+        </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo Uri::create("js/vendor/jquery-1.8.3.min.js"); ?>"><\/script>')</script>
         <script src="<?php echo Uri::create('js/plugins.js'); ?>"></script>
