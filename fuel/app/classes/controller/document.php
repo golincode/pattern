@@ -264,6 +264,10 @@ class Controller_Document extends Controller_Template
 			'title'		=> 'Chapter VIII – Legal',
 			'body'		=> 'legal',
 			'sections'	=> array(
+				'licenses' => array(
+					'title'		=> 'Licenses',
+					'body'		=> 'licenses',
+				),
 				'statement-of-work' => array(
 					'title'		=> 'Statement of Work',
 					'body'		=> 'statement-of-work',
