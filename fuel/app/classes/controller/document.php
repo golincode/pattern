@@ -116,6 +116,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Analytics',
 					'body'		=> 'analytics',
 				),
+				'availability' => array(
+					'title'		=> 'Availability',
+					'body'		=> 'availability',
+				),
 				'backups' => array(
 					'title'		=> 'Backups',
 					'body'		=> 'backups',
