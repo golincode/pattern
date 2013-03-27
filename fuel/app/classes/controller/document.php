@@ -132,6 +132,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Branches',
 					'body'		=> 'branches',
 				),
+				'compliance' => array(
+					'title'		=> 'Compliance',
+					'body'		=> 'compliance',
+				),
 				'code-repo' => array(
 					'title'		=> 'Code Repository',
 					'body'		=> 'code-repo',
