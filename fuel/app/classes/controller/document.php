@@ -104,77 +104,77 @@ class Controller_Document extends Controller_Template
 			'title'		=> 'Chapter IV – Technical Specification',
 			'body'		=> 'technical-specification',
 			'sections'	=> array(
-				'server' => array(
-					'title'		=> 'Server',
-					'body'		=> 'server',
-				),
-				'client-browser-devices' => array(
-					'title'		=> 'Client Browser &amp; Devices',
-					'body'		=> 'client-browser-devices',
+				'accessibility' => array(
+					'title'		=> 'Accessibility',
+					'body'		=> 'accessibility',
 				),
 				'application' => array(
 					'title'		=> 'Application',
 					'body'		=> 'application',
 				),
-				'third-party' => array(
-					'title'		=> 'Third Party Services',
-					'body'		=> 'third-party',
-				),
-				'domains-dns' => array(
-					'title'		=> 'Domains &amp; DNS',
-					'body'		=> 'domains-dns',
-				),
-				'accessibility' => array(
-					'title'		=> 'Accessibility',
-					'body'		=> 'accessibility',
+				'analytics' => array(
+					'title'		=> 'Analytics',
+					'body'		=> 'analytics',
 				),
 				'backups' => array(
 					'title'		=> 'Backups',
 					'body'		=> 'backups',
 				),
-				'analytics' => array(
-					'title'		=> 'Analytics',
-					'body'		=> 'analytics',
-				),
-				'suppliers' => array(
-					'title'		=> 'Recommended Suppliers',
-					'body'		=> 'suppliers',
-				),
-				'code-repo' => array(
-					'title'		=> 'Code Repository',
-					'body'		=> 'code-repo',
-				),
 				'bug-reporting' => array(
 					'title'		=> 'Bug Reporting',
 					'body'		=> 'bug-reporting',
-				),
-				'version-control' => array(
-					'title'		=> 'Version Control',
-					'body'		=> 'version-control',
 				),
 				'branches' => array(
 					'title'		=> 'Branches',
 					'body'		=> 'branches',
 				),
+				'code-repo' => array(
+					'title'		=> 'Code Repository',
+					'body'		=> 'code-repo',
+				),
+				'client-browser-devices' => array(
+					'title'		=> 'Client Browser &amp; Devices',
+					'body'		=> 'client-browser-devices',
+				),
+				'domains-dns' => array(
+					'title'		=> 'Domains &amp; DNS',
+					'body'		=> 'domains-dns',
+				),
 				'environments' => array(
 					'title'		=> 'Environments',
 					'body'		=> 'environments',
-				),
-				'logs' => array(
-					'title'		=> 'Logs',
-					'body'		=> 'logs',
-				),
-				'software' => array(
-					'title'		=> 'Software &amp; Versions',
-					'body'		=> 'software',
 				),
 				'frameworks' => array(
 					'title'		=> 'Frameworks &amp; Libraries',
 					'body'		=> 'frameworks',
 				),
+				'logs' => array(
+					'title'		=> 'Logs',
+					'body'		=> 'logs',
+				),
+				'server' => array(
+					'title'		=> 'Server',
+					'body'		=> 'server',
+				),
+				'software' => array(
+					'title'		=> 'Software &amp; Versions',
+					'body'		=> 'software',
+				),
 				'standards' => array(
 					'title'		=> 'Coding Standards',
 					'body'		=> 'standards',
+				),
+				'suppliers' => array(
+					'title'		=> 'Recommended Suppliers',
+					'body'		=> 'suppliers',
+				),
+				'third-party' => array(
+					'title'		=> 'Third Party Services',
+					'body'		=> 'third-party',
+				),
+				'version-control' => array(
+					'title'		=> 'Version Control',
+					'body'		=> 'version-control',
 				),
 			),
 		),
