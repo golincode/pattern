@@ -172,6 +172,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Logs',
 					'body'		=> 'logs',
 				),
+				'portability' => array(
+					'title'		=> 'Portability',
+					'body'		=> 'portability',
+				),
 				'server' => array(
 					'title'		=> 'Server',
 					'body'		=> 'server',
