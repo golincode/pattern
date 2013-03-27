@@ -104,6 +104,14 @@ class Controller_Document extends Controller_Template
 			'title'		=> 'Chapter IV – Non-Functional (Technical) Specification',
 			'body'		=> 'technical-specification',
 			'sections'	=> array(
+				'documentation' => array(
+					'title'		=> 'Documentation',
+					'body'		=> 'documentation',
+				),
+				'client-browser-devices' => array(
+					'title'		=> 'Client Browser &amp; Devices',
+					'body'		=> 'client-browser-devices',
+				),
 				'accessibility' => array(
 					'title'		=> 'Accessibility',
 					'body'		=> 'accessibility',
@@ -120,73 +128,29 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Availability',
 					'body'		=> 'availability',
 				),
-				'backups' => array(
-					'title'		=> 'Backups',
-					'body'		=> 'backups',
-				),
-				'bug-reporting' => array(
-					'title'		=> 'Bug Reporting',
-					'body'		=> 'bug-reporting',
-				),
-				'branches' => array(
-					'title'		=> 'Branches',
-					'body'		=> 'branches',
-				),
 				'compliance' => array(
 					'title'		=> 'Compliance',
 					'body'		=> 'compliance',
-				),
-				'code-repo' => array(
-					'title'		=> 'Code Repository',
-					'body'		=> 'code-repo',
-				),
-				'client-browser-devices' => array(
-					'title'		=> 'Client Browser &amp; Devices',
-					'body'		=> 'client-browser-devices',
 				),
 				'domains-dns' => array(
 					'title'		=> 'Domains &amp; DNS',
 					'body'		=> 'domains-dns',
 				),
-				'deployment' => array(
-					'title'		=> 'Deployment',
-					'body'		=> 'deployment',
-				),
-				'documentation' => array(
-					'title'		=> 'Documentation',
-					'body'		=> 'documentation',
-				),
-				'disaster-recovery' => array(
-					'title'		=> 'Disaster Recovery',
-					'body'		=> 'disaster-recovery',
-				),
-				'environments' => array(
-					'title'		=> 'Environments',
-					'body'		=> 'environments',
-				),
-				'frameworks' => array(
-					'title'		=> 'Frameworks &amp; Libraries',
-					'body'		=> 'frameworks',
-				),
-				'logs' => array(
-					'title'		=> 'Logs',
-					'body'		=> 'logs',
-				),
-				'portability' => array(
-					'title'		=> 'Portability',
-					'body'		=> 'portability',
-				),
 				'server' => array(
 					'title'		=> 'Server',
 					'body'		=> 'server',
 				),
-				'software' => array(
-					'title'		=> 'Software &amp; Versions',
-					'body'		=> 'software',
+				'backups' => array(
+					'title'		=> 'Backups',
+					'body'		=> 'backups',
 				),
-				'standards' => array(
-					'title'		=> 'Coding Standards',
-					'body'		=> 'standards',
+				'deployment' => array(
+					'title'		=> 'Deployment',
+					'body'		=> 'deployment',
+				),
+				'disaster-recovery' => array(
+					'title'		=> 'Disaster Recovery',
+					'body'		=> 'disaster-recovery',
 				),
 				'suppliers' => array(
 					'title'		=> 'Recommended Suppliers',
@@ -196,9 +160,45 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Third Party Services',
 					'body'		=> 'third-party',
 				),
+				'bug-reporting' => array(
+					'title'		=> 'Bug Reporting',
+					'body'		=> 'bug-reporting',
+				),
+				'environments' => array(
+					'title'		=> 'Environments',
+					'body'		=> 'environments',
+				),
 				'version-control' => array(
 					'title'		=> 'Version Control',
 					'body'		=> 'version-control',
+				),
+				'branches' => array(
+					'title'		=> 'Branches',
+					'body'		=> 'branches',
+				),
+				'logs' => array(
+					'title'		=> 'Logs',
+					'body'		=> 'logs',
+				),
+				'standards' => array(
+					'title'		=> 'Coding Standards',
+					'body'		=> 'standards',
+				),
+				'code-repo' => array(
+					'title'		=> 'Code Repository',
+					'body'		=> 'code-repo',
+				),
+				'software' => array(
+					'title'		=> 'Software &amp; Versions',
+					'body'		=> 'software',
+				),
+				'frameworks' => array(
+					'title'		=> 'Frameworks &amp; Libraries',
+					'body'		=> 'frameworks',
+				),
+				'portability' => array(
+					'title'		=> 'Portability',
+					'body'		=> 'portability',
 				),
 			),
 		),
