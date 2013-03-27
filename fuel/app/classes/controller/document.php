@@ -156,6 +156,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Documentation',
 					'body'		=> 'documentation',
 				),
+				'disaster-recovery' => array(
+					'title'		=> 'Disaster Recovery',
+					'body'		=> 'disaster-recovery',
+				),
 				'environments' => array(
 					'title'		=> 'Environments',
 					'body'		=> 'environments',
