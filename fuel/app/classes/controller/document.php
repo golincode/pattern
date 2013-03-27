@@ -152,6 +152,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Deployment',
 					'body'		=> 'deployment',
 				),
+				'documentation' => array(
+					'title'		=> 'Documentation',
+					'body'		=> 'documentation',
+				),
 				'environments' => array(
 					'title'		=> 'Environments',
 					'body'		=> 'environments',
