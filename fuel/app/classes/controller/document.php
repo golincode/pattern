@@ -101,7 +101,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'technical-specification' => array(
-			'title'		=> 'Chapter IV – Technical Specification',
+			'title'		=> 'Chapter IV – Non-Functional (Technical) Specification',
 			'body'		=> 'technical-specification',
 			'sections'	=> array(
 				'accessibility' => array(
