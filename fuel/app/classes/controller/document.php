@@ -148,6 +148,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Domains &amp; DNS',
 					'body'		=> 'domains-dns',
 				),
+				'deployment' => array(
+					'title'		=> 'Deployment',
+					'body'		=> 'deployment',
+				),
 				'environments' => array(
 					'title'		=> 'Environments',
 					'body'		=> 'environments',
