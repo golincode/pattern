@@ -31,6 +31,23 @@
 						</tr>
 					</tbody>
 				</table>
+				<h2>Domains</h2>
+				<table class="datatable">
+					<thead>
+						<tr>
+							<th>Company</th>
+							<th>Services</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="https://iwantmyname.com">iWantMyName</a></td>
+							<td>Domains, DNS</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
 				<h2>SSL</h2>
 				<table class="datatable">
 					<thead>
