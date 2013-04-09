@@ -346,6 +346,24 @@ class Controller_Document extends Controller_Template
 				),
 			),
 		),
+		'ssd' => array(
+			'title'		=> 'Chapter XI – Software Design Document',
+			'body'		=> 'ssd',
+			'sections' => array(
+				'data' => array(
+					'title'		=> 'Data',
+					'body'		=> 'data',
+				),
+				'architecture' => array(
+					'title'		=> 'Architecture',
+					'body'		=> 'architecture',
+				),
+				'interface' => array(
+					'title'		=> 'Interface',
+					'body'		=> 'interface',
+				),
+			),
+		),
 	);
 
 	public static $quotes = array(
