@@ -224,8 +224,54 @@ class Controller_Document extends Controller_Template
 				),
 			),
 		),
+		'accessibility' => array(
+			'title'		=> 'Chapter VI – Accessibility',
+			'body'		=> 'accessibility',
+			'sections'	=> array(
+				'text-alternatives' => array(
+					'title'		=> 'Text Alternatives',
+					'body'		=> 'text-alternatives',
+				),
+				'time-based-media' => array(
+					'title'		=> 'Time-based Media',
+					'body'		=> 'time-based-media',
+				),
+				'adaptable' => array(
+					'title'		=> 'Adaptable',
+					'body'		=> 'adaptable',
+				),
+				'distinguishable' => array(
+					'title'		=> 'Distinguishable',
+					'body'		=> 'distinguishable',
+				),
+				'keyboard-accessible' => array(
+					'title'		=> 'Keyboard Accessible',
+					'body'		=> 'keyboard-accessible',
+				),
+				'enough-time' => array(
+					'title'		=> 'Enough Time',
+					'body'		=> 'enough-time',
+				),
+				'navigable' => array(
+					'title'		=> 'Navigable',
+					'body'		=> 'navigable',
+				),
+				'readable' => array(
+					'title'		=> 'Readable',
+					'body'		=> 'readable',
+				),
+				'predictable' => array(
+					'title'		=> 'Predictable',
+					'body'		=> 'predictable',
+				),
+				'conformance' => array(
+					'title'		=> 'Conformance',
+					'body'		=> 'conformance',
+				),
+			),
+		),
 		'go-live' => array(
-			'title'		=> 'Chapter VI – Go Live',
+			'title'		=> 'Chapter VII – Go Live',
 			'body'		=> 'go-live',
 			'sections'	=> array(
 				'analytics' => array(
@@ -255,7 +301,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'maintenance' => array(
-			'title'		=> 'Chapter VII – Maintenance',
+			'title'		=> 'Chapter VIII – Maintenance',
 			'body'		=> 'maintenance',
 			'sections'	=> array(
 				'server' => array(
@@ -285,7 +331,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'legal' => array(
-			'title'		=> 'Chapter VIII – Legal',
+			'title'		=> 'Chapter IX – Legal',
 			'body'		=> 'legal',
 			'sections'	=> array(
 				'licenses' => array(
@@ -303,7 +349,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'analysis' => array(
-			'title'		=> 'Chapter IX – Analysis',
+			'title'		=> 'Chapter X – Analysis',
 			'body'		=> 'analysis',
 			'sections'	=> array(
 				'evaluation' => array(
@@ -317,7 +363,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'authorised-systems' => array(
-			'title'		=> 'Chapter X – Authorised Web Systems',
+			'title'		=> 'Chapter XI – Authorised Web Systems',
 			'body'		=> 'authorised-systems',
 			'sections'	=> array(
 				'apis' => array(
@@ -347,7 +393,7 @@ class Controller_Document extends Controller_Template
 			),
 		),
 		'ssd' => array(
-			'title'		=> 'Chapter XI – Software Design Document',
+			'title'		=> 'Chapter XII – Software Design Document',
 			'body'		=> 'ssd',
 			'sections' => array(
 				'data' => array(
