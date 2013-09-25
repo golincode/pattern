@@ -194,7 +194,12 @@ body {
         border-top: #EFEFEF solid 1px;
     }
 
-
+.level {
+    text-transform: uppercase;
+    background-color: #EFEFEF;
+    padding: 2px 5px;
+    font-size: .7em
+}
 
 
 
