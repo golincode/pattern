@@ -128,6 +128,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Maintenance',
 					'body'		=> 'maintenance-mode',
 				),
+				'url-structure' => array(
+					'title'		=> 'URL Structure',
+					'body'		=> 'url-structure',
+				),
 				'analytics' => array(
 					'title'		=> 'Analytics',
 					'body'		=> 'analytics',
