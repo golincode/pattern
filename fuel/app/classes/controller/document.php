@@ -124,6 +124,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Errors',
 					'body'		=> 'error-handling',
 				),
+				'maintenance-mode' => array(
+					'title'		=> 'Maintenance',
+					'body'		=> 'maintenance-mode',
+				),
 				'analytics' => array(
 					'title'		=> 'Analytics',
 					'body'		=> 'analytics',
