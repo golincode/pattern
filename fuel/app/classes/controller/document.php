@@ -120,6 +120,10 @@ class Controller_Document extends Controller_Template
 					'title'		=> 'Application',
 					'body'		=> 'application',
 				),
+				'error-handling' => array(
+					'title'		=> 'Errors',
+					'body'		=> 'error-handling',
+				),
 				'analytics' => array(
 					'title'		=> 'Analytics',
 					'body'		=> 'analytics',
