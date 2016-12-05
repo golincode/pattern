@@ -3,13 +3,14 @@ layout: page
 title: UX and Design
 permalink: /iii/ux-design/
 ---
+
 User Experience and Design defines the look and feel of the project. It’s difficult to describe the full scope of the project in design, so stick to answering as much of the requirements as possible.
 
 ### Use Cases & User Stories
 
-Use Cases
+#### Use Cases
 
-Use cases are a string of steps a user takes to perform an action. Take the goals of the project and define how users achieve those goals.
+Use cases are a string of steps a user takes to perform an action. Take the goals of the project and define how users achieve those goals. They let you look at a specific site or journey from many angles.
 
 > Buying a product from Amazon
 > - Search for a product or use categories to browse
@@ -19,6 +20,8 @@ Use cases are a string of steps a user takes to perform an action. Take the goal
 > - Receive confirmation of purchase
 > - User Stories
 {: .example }
+
+#### User stories
 
 Describe the actions for each type of user that would use the project.
 

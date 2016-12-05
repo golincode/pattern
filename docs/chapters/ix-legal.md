@@ -11,7 +11,7 @@ A license for each library, framework or software included with the application 
 The format for each license is as follows:
 [Software] [Software version] [Licence + version].txt
 
-PHP 5.4 The PHP License 3.01.txt
+PHP 7.0.0 The PHP License 3.01.txt
 jQuery 1.9.1 MIT License.txt
 Remember to take note of the software version and the license number, if applicable.
 
@@ -29,6 +29,8 @@ Here are links to the most popular licenses you’ll need:
 - [Twitter Bootstrap](http://www.apache.org/licenses/LICENSE-2.0)
 - [Socket.IO](https://opensource.org/licenses/mit-license.php)
 - [Backbone.js](https://github.com/jashkenas/backbone/blob/master/LICENSE)
+- [React](https://raw.githubusercontent.com/facebook/react/master/LICENSE)
+- [Angular](https://raw.githubusercontent.com/angular/angular.js/master/LICENSE)
 
 ### Statement of Work
 

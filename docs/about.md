@@ -62,13 +62,13 @@ For more information on versioning, see [Semantic Versioning](http://semver.org/
 
 ## Project Process
 
-- Pitch
+- Pitch (PM, UX, Design, Lead developer start here.)
 - Scoping
-- Research
+- Research (Extra dev work may start here)
 - Sign off
-- Design
-- Build & develop
-- Test
+- Design (Design teams start here)
+- Build & develop (Dev teams start here)
+- Test (QA, UX)
 - Go Live
 - Evaluate
 - Maintain

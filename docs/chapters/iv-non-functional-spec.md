@@ -20,7 +20,6 @@ Here’s a list of the standard browsers we’d suggest – but do re-consider f
 |:---------------------|:-----------------|
 | Internet Explorer 10 | Windows 8        |
 | Internet Explorer 9  | Windows 7        |
-| Internet Explorer 8  | Windows XP       |
 | Internet Explorer 10 | Windows Phone 8  |
 | Chrome latest        | Windows 7        |
 | Firefox latest       | Windows 7        |
@@ -67,6 +66,15 @@ For example:
 - **javascript** - if an application has a part of it that has a specific requirement (ie. javascript, flash, etc.) how - should this be dealt with?
 - **general error (500)** - how should the application deal with all other errors?
 
+> Validation errors will be shown near the fields they relate to, in a way that implies that there is a problem with the given field (ie. a red box)
+>
+> For all server-related errors, a basic Nginx error page will be shown.
+>
+> For any 404 errors (if a page or content does not exist), a basic error page will be shown to the user, informing them the content does not exist.
+>
+> For any other uncaught errors in the application, a basic error page will be shown to the user, giving them little detail or information about the error.
+{: .precise }
+
 ### Maintenance
 
 When the application needs updating, there will be a brief disruption of service. This does not count as downtime, as it is a part of the deployment process. The process is thus:
@@ -82,15 +90,21 @@ When the application needs updating, there will be a brief disruption of service
 
 Discuss how the site will structure its URLs.
 
+#### URL parameters
+
+Any individual URL parameter (the parts of the URL separated by a `/`) should refer to only **one** thing - either some constant text, or a reference to a peice of content (either an ID or a slug).
+
 Examples:
 
-#### If the has multiple languages / territories / domains:
+In the following `https://example.com/article/how-to-wash-the-shame-away`, `article` is constant, and `how-to-wash-the-shame-away` is a reference to an article - in this case, a slug.
 
-- How and / or where will the current language?
-- How will the home page behave - will it redirect to a default language, or show a language selector?
-- Bear in mind that each segment of a URL should correspond to a singular thing - do not use the same one to mean two different things
+In the following example, the subdomain is used to hold a language ISO code in the first two. But in the second, it's a page about penguins that they want put up because of their love of penguins. This is bad, primarily because the content router will have to struggle to figure out what kind of content it is trying to match from a URL segment. (@todo - rewrite this example if `penguins` becomes a valid ISO code.)
 
-In the following, the second url segment is used to refer to both a page OR a post
+- `en.site.com`
+- `fr.site.com`
+- `penguins.site.com`
+
+In the following, the second url segment is used to refer to both a page OR a post:
 
 - `/en/page-one`
 - `/en/post-about-cats`
@@ -101,6 +115,12 @@ The following is a better way to structure it:
 - `/en/posts/post-about-cats`
 
 The former is possible, but unreliable, and can result in unpredictable behaviour. The latter will not run into these errors.
+
+#### If the has multiple languages / territories / domains:
+
+- How and / or where will the current language be shown in the URL?
+- How will the home page behave - will it redirect to a default language, or show a language selector?
+- Bear in mind that each segment of a URL should correspond to a singular thing - do not use the same one to mean two different things
 
 ### Analytics
 
@@ -171,8 +191,8 @@ Golin recommends working with suppliers we’ve worked with before and trust. He
 
 |      Company Services      |        Services        |        Notes         |
 |:---------------------------|:-----------------------|:---------------------|
+| Amazon AWS                 | Cloud, CDN             | Our primary choice   |
 | Rackspace	Dedicated, cloud | CDN                    |                      |
-| Amazon AWS                 | Cloud, CDN             |                      |
 | Heroku                     | Cloud applications     |                      |
 | Heart Internet             | Shared, VPS, dedicated | Legacy services only |
 {: rules="groups"}
@@ -182,6 +202,7 @@ Golin recommends working with suppliers we’ve worked with before and trust. He
 |      Company Services      |    Services    |  Notes  |
 |:---------------------------|:---------------|:--------|
 | iWantMyName                | Domains, DNS   |         |
+| AWS                        | Domains, DNS   |         |
 {: rules="groups"}
 
 #### SSL
@@ -248,9 +269,9 @@ List the locations of log files, including application and server.
 
 List the coding standards used for the development.
 
-> PHP should be coded using the FuelPHP (implemented version) coding standards, avalible at [http://fuelphp.com/docs/general/coding_standards.html](http://fuelphp.com/docs/general/coding_standards.html).
+> PHP should be coded using to the [PSR-2 standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
 > CSS should be coded using Golin CSS Coding Standard ‘Waterhouse’.
-> JavaScript should be coded using Golin JavaScript Coding Standard ‘Wren’.
+> JavaScript coding standards are defined in each individual project.
 > Commenting should be written using Golin Commenting ‘King’ Style.
 {: .example }
 
@@ -276,5 +297,4 @@ Also include links to the licences of the libraries and frameworks and take a co
 
 ### Portability
 
-Explain how portable the system is, list limitations. For example, if it’s designed to run on Unix-based servers rather than Windows.
-
+Explain how portable the system is, list limitations. For example, if it’s designed to run on Windows-based servers rather than Unix-based systems.
