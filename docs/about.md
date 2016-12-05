@@ -8,7 +8,7 @@ Before we begin, here’s an overview of what Pattern is and how to use it.
 
 ## What is Pattern?
 
-Pattern is a guide to Architect’s ways of working and best practice.
+Pattern is a guide to Golin’s ways of working and best practice.
 
 It’s a set of guides to help you document your projects. Everything in Pattern should be considered and those considerations written down.
 
@@ -17,10 +17,12 @@ It’s a set of guides to help you document your projects. Everything in Pattern
 Through the document examples are given, which’ll look similar to this:
 
 > The Hub makes it easier for market managers to use the correct assets in campaigns.
+{: .example }
 
 There is also copy that is safe to use in any document you present to clients, which is indicated by the green stripe:
 
-> Architect digital design and build agency, London & San Francisco.
+> Golin digital design and build agency, London & San Francisco.
+{: .precise }
 
 ## Creating Documents
 

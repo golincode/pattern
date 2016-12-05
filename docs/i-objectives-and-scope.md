@@ -11,6 +11,7 @@ The first thing to outline is the point of the project, why the client wants it,
 Describe as simply as possibly the purpose of this project.
 
 > The Hub makes it easier for market managers to use the correct assets in campaigns.
+{: .example }
 
 Or
 
@@ -23,12 +24,14 @@ Outline the objectives as individual points. For simple projects there is likely
 > - Users should add products to a basket.
 > - Users should then checkout the contents of their basket.
 > etc
+{: .example }
 
 or
 
 > - Allow users to transfer songs from their computer to the iPod.
 > - Allow users to find songs on the iPod using different categories.
 > etc
+{: .example }
 
 ## Life Cycle
 
@@ -42,6 +45,7 @@ It is likely that copy, assets or other content is provided by the client. List 
 
 > Photography of staff and shop provided in JPG format with a minimum resolution of 4 megapixels.
 > Copy for all content pages.
+{: .example }
 
 If the client is providing finished designs they’ve made.
 
@@ -50,18 +54,22 @@ If the client is providing finished designs they’ve made.
 Normally suspiciously easy this one, what are we going to provide?
 
 > A web application deployed to a web server.
+{: .example }
 
 or
 
 > A web page suitable for a Facebook Page tab deployed to a web server.
+{: .example }
 
 or
 
 > An iOS application for iPhone and iPod touch distributed to the iOS App Store.
+{: .example }
 
 However, sometimes it can be more complicated.
 
 > A concept video with voice over demonstrating the features of the web application, training manuals for staff to use and a web application deployed to a web server.
+{: .example }
 
 ## People
 
