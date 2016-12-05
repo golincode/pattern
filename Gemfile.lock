@@ -48,6 +48,8 @@ GEM
       net-dns (~> 0.6)
       public_suffix (~> 1.4)
       typhoeus (~> 0.7)
+    gravity (0.2)
+      json
     html-pipeline (1.9.0)
       activesupport (>= 2)
       nokogiri (~> 1.4)
@@ -87,6 +89,7 @@ GEM
       gemoji (~> 2.0)
       html-pipeline (~> 1.9)
       jekyll (>= 2.0)
+    json (2.0.2)
     kramdown (1.5.0)
     liquid (2.6.2)
     listen (3.0.8)
@@ -95,7 +98,6 @@ GEM
     maruku (0.7.0)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
-    minima (2.0.0)
     minitest (5.10.1)
     multipart-post (2.0.0)
     net-dns (0.8.0)
@@ -137,7 +139,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  minima
+  gravity
 
 BUNDLED WITH
    1.13.6
