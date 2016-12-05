@@ -1,0 +1,19 @@
+
+blockquote {
+
+	&.example, &.precise {
+		font-style: normal;
+		background-color: lighten(aliceblue, 2%);
+		padding-top: .8em;
+		padding-bottom: .8em;
+	}
+
+	&.example {
+		border-left-color: #A8A8D8;
+	}
+
+	&.precise {
+		border-left-color: #A8D8A8;
+	}
+
+}
