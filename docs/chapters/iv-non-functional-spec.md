@@ -17,7 +17,7 @@ List which browsers will be used in testing, and on what platforms. List feature
 Here’s a list of the standard browsers we’d suggest – but do re-consider for each project.
 
 |        Browser       | Operating System |
-|:---------------------|:----------------:|
+|:---------------------|:-----------------|
 | Internet Explorer 10 | Windows 8        |
 | Internet Explorer 9  | Windows 7        |
 | Internet Explorer 8  | Windows XP       |
@@ -38,10 +38,13 @@ We recommend reading [Understanding WCAG 2.0, A guide to understanding and imple
 However, that can take some time, so here’s a quick overview of the four main options.
 
 | Conformance | Description |
-|:------------|:-----------:|
+|:------------|:------------|
 | None        | No regard for accessibility. Should only be considered for internal applications or administration systems for small businesses. |
+|--------------
 | A           | Including basic accessibility functions such as text alternatives to visuals, allowing the site to work without JavaScript, making sure that elements on the page used for decoration are not picked up by screen readers, help with CAPTCHA, captions for pre-recorded video or audio, use of colour (do not use to convey information that cannot otherwise be explained), keyboard usage, content is ordered appropriately, titles are accurate and useful, labels for forms. |
+|--------------
 | AA          | All of A plus: captions for live video or audio, minimum contrast, text resize by 200% without loss of functionality, headings and labels describe a purpose, always show focus, navigation consistent, error prevention (including reviewing for submitting). |
+|--------------
 | AAA         | All of A & AA plus: enhanced contrast, audio has no background noise, [text is highly readable](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html), no interruptions of timing restraints, no loss of data if a session times out, [three flashes rule](http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G19), ‘breadcrumb’ navigation, identify jargon and abbreviations, context-aware help on each page. |
 {: rules="groups"}
 
@@ -167,7 +170,7 @@ Golin recommends working with suppliers we’ve worked with before and trust. He
 #### Hosting
 
 |      Company Services      |        Services        |        Notes         |
-|:---------------------------|:----------------------:|:--------------------:|
+|:---------------------------|:-----------------------|:---------------------|
 | Rackspace	Dedicated, cloud | CDN                    |                      |
 | Amazon AWS                 | Cloud, CDN             |                      |
 | Heroku                     | Cloud applications     |                      |
@@ -177,22 +180,21 @@ Golin recommends working with suppliers we’ve worked with before and trust. He
 #### Domains
 
 |      Company Services      |    Services    |  Notes  |
-|:---------------------------|:--------------:|:-------:|
+|:---------------------------|:---------------|:--------|
 | iWantMyName                | Domains, DNS   |         |
 {: rules="groups"}
 
 #### SSL
 
-
 |      Company Services      |    Services    |  Notes  |
-|:---------------------------|:--------------:|:-------:|
+|:---------------------------|:---------------|:--------|
 | GlobalSign                 | SSL            |         |
 {: rules="groups"}
 
 #### Code Repositories
 
 |      Company Services      |         Services         |  Notes  |
-|:---------------------------|:------------------------:|:-------:|
+|:---------------------------|:-------------------------|:--------|
 | GitHub                     | Git repository hosting   |         |
 {: rules="groups"}
 
@@ -246,7 +248,7 @@ List the locations of log files, including application and server.
 
 List the coding standards used for the development.
 
-> PHP should be coded using the FuelPHP (implemented version) coding standards, avalible at http://fuelphp.com/docs/general/coding_standards.html.
+> PHP should be coded using the FuelPHP (implemented version) coding standards, avalible at [http://fuelphp.com/docs/general/coding_standards.html](http://fuelphp.com/docs/general/coding_standards.html).
 > CSS should be coded using Golin CSS Coding Standard ‘Waterhouse’.
 > JavaScript should be coded using Golin JavaScript Coding Standard ‘Wren’.
 > Commenting should be written using Golin Commenting ‘King’ Style.
