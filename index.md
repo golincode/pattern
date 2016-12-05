@@ -6,6 +6,7 @@ Processes and best practices for making things awesome.
 
 Pattern is divided up into the following chapters:
 
+- [Introduction]({{ site.baseurl }}/wtf-is-pattern)
 - [Objectives And Scope]({{ site.baseurl }}/i/objectives-and-scope)
 - [Functional Specification]({{ site.baseurl }}/ii/functional-spec)
 - [Ux Design]({{ site.baseurl }}/iii/ux-design)
