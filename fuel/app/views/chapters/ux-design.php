@@ -1,1 +1,0 @@
-            <p>User Experience and Design defines the look and feel of the project. It’s difficult to describe the full scope of the project in design, so stick to answering as much of the requirements as possible.</p>

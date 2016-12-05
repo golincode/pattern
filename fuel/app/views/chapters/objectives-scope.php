@@ -1,1 +1,0 @@
-            <p>The first thing to outline is the point of the project, why the client wants it, who’s going to do it and what they’re trying to achieve. Some of these points are painfully obvious, but this document should help anybody that hasn’t ever seen the project before get right up to speed.</p>

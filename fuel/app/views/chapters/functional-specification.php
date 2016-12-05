@@ -1,4 +1,0 @@
-                <p>The functional parts of your project – what it does. Justify what it does by referring to what goal it helps achieve.</p>
-                <p>This is where you describe the ‘what’ and ‘why’ of your project.</p>
-                <p>Once the functional specification has been written, it should be handed to the Lead Developer and Lead Designer, who should critique it. This cycle should continue until all functions have been thought-through and written down.</p>
-                <p>The Lead Developer can then answer the functional specification with a technical specification. It may not be necessary to show the client the technical one, but the functional specification should be shown to and agreed with the client. Once the client has given feedback, the cycle can begin again.</p>

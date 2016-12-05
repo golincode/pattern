@@ -1,1 +1,0 @@
-                    <p>Take note of typefaces and their weights. Recommend where they should be used an in what context. List where the sources for the typefaces (such as the client, or a service like TypeKit). Any licences required should be referred to here.</p>

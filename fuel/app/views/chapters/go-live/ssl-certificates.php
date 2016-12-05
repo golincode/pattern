@@ -1,1 +1,0 @@
-                <p>Who is responsible for buying the SSL and installing it, and how far this has to be done in advance. SSLs can be difficult, so it’s often good to leave 10 working days to get together.</p>
